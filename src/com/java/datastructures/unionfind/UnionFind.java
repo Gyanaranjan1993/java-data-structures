@@ -86,6 +86,8 @@ public class UnionFind {
             parent[root2] = root1;
         }
 
+        numComponents --;
+
     }
 
 }
